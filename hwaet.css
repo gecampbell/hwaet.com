@@ -1,0 +1,79 @@
+body {
+line-height: auto;
+max-width: 100%;
+margin-left: 4em;
+margin-right: 4em;
+}
+body > header {
+width: 100%;
+text-align: right;
+border-bottom: 1px silver solid;
+}
+body > footer {
+background: white;
+color: black;
+width: 100%;
+margin-top: 1em;
+font-size: smaller;
+position: absolute;
+bottom: 0;
+}
+ol#headlines-container {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+ol#headlines-container li {
+line-height: 140%;
+}
+h1 {
+margin-bottom: 4em;
+}
+h2 {
+margin: 4em 0 1em 0;
+font-weight: bold;
+}
+ol#headlines-container a, ol#headlines-container a:visited, ol#headlines-container a:hover {
+text-decoration: none;
+color: black;
+}
+ol#headlines-container a:hover {
+text-decoration: underline;
+color: navy;
+}
+ol#headlines-container a:visited {
+color: gray;
+}
+#ampm {
+font-size: smaller;
+}
+a {
+color: gray;
+}
+a:hover {
+text-decoration: none;
+color: black;
+}
+#time { 
+line-height: 4vh;
+}
+h1 {
+/*text-align: center;*/
+}
+.day, .date {
+color: gray;
+font-size: 4vh;
+}
+.day {
+}
+.time {
+color: black;
+display: block;
+font-size: 15vh;
+font-weight: bold;
+margin-top: 2vh;
+/*letter-spacing: -.07em;*/
+}
+.day:after {
+content: ", "; 
+}

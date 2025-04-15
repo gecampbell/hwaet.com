@@ -7,13 +7,14 @@ margin-right: 4em;
 body > header {
 width: 100%;
 text-align: right;
-border-bottom: 1px silver solid;
+border-bottom: 1px gray dotted;
 }
 body > footer {
 background: white;
 color: black;
 width: 100%;
 margin-top: 1em;
+border-top: 1px gray dotted;
 font-size: smaller;
 position: sticky;
 bottom: 0;

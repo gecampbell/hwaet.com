@@ -15,12 +15,12 @@ color: black;
 width: 100%;
 margin-top: 1em;
 font-size: smaller;
-position: absolute;
+position: sticky;
 bottom: 0;
 }
 ol#headlines-container {
 list-style-type: none;
-margin: 0;
+margin: 0 0 5em 0;
 padding: 0;
 }
 ol#headlines-container li {

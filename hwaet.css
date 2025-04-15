@@ -14,7 +14,6 @@ background: white;
 color: black;
 width: 100%;
 margin-top: 1em;
-border-top: 1px gray dotted;
 font-size: smaller;
 position: sticky;
 bottom: 0;
@@ -29,7 +28,6 @@ line-height: 140%;
 }
 h1 {
 margin-bottom: 4em;
-line-height: 4vh;
 }
 h2 {
 margin: 4em 0 1em 0;
@@ -57,24 +55,24 @@ text-decoration: none;
 color: black;
 }
 #time { 
-line-height: 5vh;
+line-height: auto;
 }
 h1 {
 /*text-align: center;*/
 }
 .day, .date {
 color: gray;
-font-size: 4vh;
+font-size: 24pt;
+letter-spacing: -.5pt;
 }
 .day {
 }
 .time {
 color: black;
 display: block;
-font-size: 15vh;
+font-size: 96pt;
 font-weight: bold;
-margin-top: 2vh;
-/*letter-spacing: -.07em;*/
+margin-top: 0;
 }
 .day:after {
 content: ", "; 

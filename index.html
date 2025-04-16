@@ -27,7 +27,7 @@ All rights reserved.
 <script type="text/javascript">
 
 const apiKey = 'dd5d8691-11b1-44bd-bae2-711ffbbdd7e6';
-const apiUrl = `https://content.guardianapis.com/search?api-key=${apiKey}&section=sport&show-fields=headline,short-url`;
+const apiUrl = `https://content.guardianapis.com/search?api-key=${apiKey}&section=sport|football&page-size=20&show-fields=headline,short-url`;
 
 fetch(apiUrl)
   .then(response => response.json())

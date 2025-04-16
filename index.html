@@ -16,7 +16,7 @@
 hw&aelig;t.com
 </header>
 <h1 class="datetime" id="time">00:00</h1>
-<h2>Recent Headlines</h2>
+<h2>Recent Sports Headlines</h2>
 <ol id="headlines-container"></ol>
 <footer>
 &copy;2025 <a href="https://glenc.xyz">Glen Campbell</a>.
@@ -27,7 +27,7 @@ All rights reserved.
 <script type="text/javascript">
 
 const apiKey = 'dd5d8691-11b1-44bd-bae2-711ffbbdd7e6';
-const apiUrl = `https://content.guardianapis.com/search?api-key=${apiKey}&show-fields=headline,short-url`;
+const apiUrl = `https://content.guardianapis.com/search?api-key=${apiKey}&section=sport&show-fields=headline,short-url`;
 
 fetch(apiUrl)
   .then(response => response.json())

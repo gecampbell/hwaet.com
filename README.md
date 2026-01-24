@@ -1,2 +1,2 @@
-# hwaet.com
-HWÆT.COM
+# glen-campbell.com (and others)
+Renamed 1/24/2026
